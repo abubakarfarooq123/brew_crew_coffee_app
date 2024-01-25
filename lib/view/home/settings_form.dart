@@ -1,9 +1,7 @@
 import 'package:brew_crew/model/userModel.dart';
 import 'package:brew_crew/shared/loading.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:brew_crew/shared/constant.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
 import '../../services/database.dart';
@@ -67,7 +65,7 @@ class _FormSettingsState extends State<FormSettings> {
 
                   DropdownButtonFormField<String>(
                     decoration: textInputDecoration,
-                    value: _currentSugars ?? userData!.sugars,
+                    value: _currentSugars ?? userData.sugars,
                     items: sugars.map((sugar) {
                       return DropdownMenuItem(
                         value: sugar,
