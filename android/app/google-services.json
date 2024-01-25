@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "364080245203",
+    "project_id": "test-firebase-23b71",
+    "storage_bucket": "test-firebase-23b71.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364080245203:android:e402182e9f16ee6556e726",
+        "android_client_info": {
+          "package_name": "com.abtech.brew_crew"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZaejLmY4aDxzIVlZ3qDL5sOnJiEpXhvA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
